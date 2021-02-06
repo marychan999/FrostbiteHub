@@ -1,0 +1,4 @@
+if game.PlaceId == 2753915549 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kiwi-i/wallys-ui-fork/master/lib.lua"))()
+if game.PlaceId == 4442272183 then
+  loadstring(https://raw.githubusercontent.com/marychan999/FrostbiteHub/main/BloxFruitNewWorld"))()
