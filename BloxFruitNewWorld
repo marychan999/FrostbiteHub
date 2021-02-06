@@ -3080,8 +3080,6 @@ local win = Flux:Window("Frostbite", "Premium Lua", Color3.fromRGB(110, 200, 170
 local tab = win:Tab("BloxFruits", "http://www.roblox.com/asset/?id=6023426915")
 local combat = win:Tab("Combat", "http://www.roblox.com/asset/?id=6022668888")
 
-if game.PlaceId == 2753915549 then
-
 tab:Label("Welcome to Frostbite Paid Script BloxFruits")
 
 tab:Toggle("AutoFarm Level", "Automatically Farm Level", false , function(t)
@@ -3127,9 +3125,6 @@ tab:Dropdown("Select Tools", weapon, function(t)
         end
 end)
 end)
-
-
-end
 
 combat:Label("You Can Use Combat to Kill Someone.")
 
